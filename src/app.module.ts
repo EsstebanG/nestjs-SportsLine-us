@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 /** import { UserModule } from './user/user.module'; // Suponiendo que vas a crear un módulo de usuarios. */
-import { databaseConfig } from './dbconfig/connection'; // Importa la configuración
+import { databaseConfig } from './common/dbconfig/connection'; // Importa la configuración
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
